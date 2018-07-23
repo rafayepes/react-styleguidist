@@ -12,8 +12,8 @@
 		"react"
 	],
 	"plugins": [
-		"transform-class-properties",
-		"transform-object-rest-spread",
+		"proposal-class-properties",
+		"proposal-object-rest-spread",
 		"syntax-dynamic-import"
 	],
 	"env": {
@@ -21,8 +21,8 @@
 			"presets": ["env", "react"],
 			"plugins": [
 				"system-import-transformer",
-				"transform-class-properties",
-				"transform-object-rest-spread"
+				"proposal-class-properties",
+				"proposal-object-rest-spread"
 			]
 		}
 	}
